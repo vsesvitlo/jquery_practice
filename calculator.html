@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+      <meta charset="UTF-8">
+      <title>Jquery-calculator</title>
+	  <script type="text/javascript"src="jquery.min.js"></script>
+	  <script type="text/javascript"src="calculator.js"></script>
+      <link rel="stylesheet" href="calculator.css">
+       </head>
+    <body>
+     <div class="main-container">
+		   <div class="left">
+             <div class="logo">
+             </div>
+			 <div class="slider-color">
+			   <!--<div class="slider" id ="blue"></div>
+			   <div class="slider" id ="color-gray"></div>
+			   <div class="slider" id ="color-red"></div>
+			   <div class="slider" id ="color-black"></div>
+			   <div class="slider" id ="color-white"></div>
+			   <div class="slider" id ="color-orange"></div>
+			   <div class="slider" id ="color-gray2"></div>-->
+			 </div>
+		   </div>
+		    <div class="model-summary">
+             <div class="model-name">Hundai Solaris
+			 <ul>
+			   <li class="model-specs" id="modelSpecs">1.6 - 6AT Comfort</li>
+			   <li class="model-price" id="modelPrice"></li>
+			   <li class="model-price-USD" id="modelPriceUSD"></li>
+			  </ul>			   
+			 <div class="order"><button >Заказать</button></div>
+	        </div>
+            </div>
+     </div>
+     <div class="footer-container">
+	      <div class="line">
+		  <h3>Настрой авто для себя</h3>
+		  </div>
+		  <form id="autoForm">
+		  <div class="choose">
+            <div class="form-block">
+               <ul>Двигатель
+                 <li><input type="radio" name="engine" value="624900" id="engine1400" checked="checked">
+                     <label for="engine1400">1.4 л (100 л.с.)</label>
+				 </li>
+                 <li><input type="radio" name="engine" value="749900" id="engine1600">
+                     <label for="engine1400">1.6 л (123 л.с.)</label>
+				 </li>  
+			   </ul>
+            </div>
+			 <div class="form-block">
+               <ul>Коробка передач
+                 <li><input type="radio" name="transmission" value="0" id="transmission6MT">
+                     <label for="transmission6MT">Ручная, 6 ступеней (6МТ)</label>
+				 </li>
+                 <li><input type="radio" name="transmission" value="125000" id="transmission6AT" checked="checked" >
+                     <label for="transmission6AT">Автомат, 6 ступеней (6АТ)
+                   </label>
+				 </li>  
+			   </ul>
+            </div>
+			 <div class="form-block">
+               <ul>Пакет
+                 <li><input type="radio"name="package" value="0" id="packageActive" checked="checked">
+                   <label for="packageActive">Active</label>
+				 </li>
+                 <li><input type="radio" name="package" value="85000" id="packageActivePlus">
+                   <label for="packageActivePlus">Active Plus (кондиционер)</label>
+				 </li>  
+				 <li><input type="radio" name="package" value="136000" id="packageComfort">
+                     <label for="packageComfort">Comfort (климатконтроль)</label>
+				 </li>
+			   </ul>
+            </div>
+			</div>
+			</form>
+			<div class="choose-2">
+			  <h3>Цвет</h3>
+            <div class="color_choose">
+             <button class="color" id ="color-blue"></button>
+			 <button class="color" id ="color-gray"></button>
+			 <button class="color" id ="color-red"></button>
+			 <button class="color" id ="color-black"></button>
+			 <button class="color" id ="color-white"></button>
+			 <button class="color" id ="color-orange"></button>
+			 <button class="color" id ="color-gray2"></button>
+            </div>
+			</div>
+         </div>
+      </div>
+    </body>
+</html>
